@@ -1,12 +1,12 @@
 ## Multimodal Debate
 
-multimodal_debate.zip
+file: multimodal_debate.zip
 
 The format of the pickle file: {'id': {'harmful': "", 'harmless': ""}, ..., 'id': {'harmful': "", 'harmless': ""}}; where harmful means the explanation from the harmful argument and harmless means the explanation from the harmless argument.
 
 ## LLM Judge
 
-llm_judge_result.zip
+file: llm_judge_result.zip
 
 The format of the pickle file: {'id': '1 or 0', ..., 'id': '1 or 0'}; where 1 means harmful and 0 means harmless.
 
