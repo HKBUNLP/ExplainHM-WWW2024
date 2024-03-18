@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Data
 
-Please refer to [data](https://github.com/HKBUNLP/ExplainHM-WWW2024/data).
+Please refer to [data](https://github.com/HKBUNLP/ExplainHM-WWW2024/tree/main/data).
 
 ## Training
 ```bash
