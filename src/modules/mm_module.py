@@ -21,7 +21,7 @@ class MMTransformerSS(pl.LightningModule):
     def __init__(self, config):
         super().__init__()
         self.save_hyperparameters()
-        self.mode = self.hparams.config["mode"]
+        #self.mode = self.hparams.config["mode"]
 
         if torch.distributed.is_initialized():
             if torch.distributed.get_rank() == 0:
