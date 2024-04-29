@@ -36,8 +36,8 @@ CUDA_VISIBLE_DEVICES=0,1 python run.py with data_root=$DATA \
 export DATA="/path/to/data/folder"
 export LOG="/path/to/log/folder"
 
-CUDA_VISIBLE_DEVICES=0,1 python run.py with data_root=$DATA \
-    num_gpus=2 num_nodes=1 task_train per_gpu_batchsize=8 batch_size=32 test_only=True \
+CUDA_VISIBLE_DEVICES=0 python run.py with data_root=$DATA \
+    num_gpus=1 num_nodes=1 task_train per_gpu_batchsize=32 batch_size=32 test_only=True \
     clip32_base224 text_t5_base image_size=224 vit_randaug \
     log_dir=$LOG precision=32 \
     max_text_len=512 load_path="/path/to/label_learn.ckpt"
