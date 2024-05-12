@@ -369,7 +369,6 @@ class T5ForMultimodalGeneration(T5ForConditionalGeneration):
         self.device_map = None
 
         self.image_ids = None
-        self.rationale_ids = None
     
     def update_image_ids(self, img):
         self.image_ids = img
