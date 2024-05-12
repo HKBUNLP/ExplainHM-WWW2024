@@ -26,7 +26,6 @@ class JsonDataset(torch.utils.data.Dataset):
         img_key,
         text_key,
         label_key,
-        rationale_key,
         tokenizer=None,
         max_text_len=50,
         image_only=False,
@@ -43,7 +42,6 @@ class JsonDataset(torch.utils.data.Dataset):
         self.img_key = img_key
         self.text_key = text_key
         self.label_key = label_key
-        self.rationale_key = rationale_key
         self.transforms = keys_to_transforms(transform_keys, size=image_size)
         self.max_text_len = max_text_len
         self.image_size = image_size
