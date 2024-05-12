@@ -26,7 +26,6 @@ class MemeDataset(JsonDataset):
             img_key=img_key,
             text_key=text_key,
             label_key=label_key,
-            rationale_key=rationale_key,
         )
 
 
