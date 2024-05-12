@@ -17,7 +17,6 @@ class MemeDataset(JsonDataset):
         img_key = "image"
         text_key = "text"
         label_key = "labels"
-        rationale_key = "rationale"
 
         super().__init__(
             *args,
